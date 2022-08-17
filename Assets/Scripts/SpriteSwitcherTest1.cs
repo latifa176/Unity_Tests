@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SpriteSwitcherTest1 : MonoBehaviour
 {
-    // Start is called before the first frame update
     SpriteTimer spriteTimer;
 
+    // Start is called before the first frame update
     void Start()
     {
         spriteTimer = FindObjectOfType<SpriteTimer>();
